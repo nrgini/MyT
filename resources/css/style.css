@@ -10,6 +10,22 @@ header {
   width: 100%;
 }
 
+.main-container {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
 .logo-left {
   display: flex;
   justify-content: flex-start;
