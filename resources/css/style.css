@@ -1,29 +1,38 @@
-header {
+.header {
   display: inline-flex;
   justify-content: space-between;
   position: fixed;
   border-bottom: 1px solid black;
-  height: 90px;
+  min-height: 90px;
   margin-left: 10px;
   margin-right: 15px;
   padding: 0px 20px;
   width: 100%;
+  margin-bottom: 200px;
 }
 
 .main-container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column {
   display: flex;
 }
 
 .column.large {
   width: 630px;
+  border: 1px solid black;
 }
 
 .column.medium {
   width: 300px;
+  border: 1px solid black;
 }
 
 .column.small {
   width: 240px;
+  border: 1px solid black;
 }
 
 .logo-left {
