@@ -89,6 +89,7 @@ span.logo-text {
 .column.large {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 630px;
 }
 
@@ -204,4 +205,36 @@ span.logo-text {
     font-size: 12px;
     color: DimGray;
     background-color: WhiteSmoke;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  padding: 100px;
+}
+
+.footer-content {
+  margin-left: 20px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+.copyright {
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  flex: 0 100%;
+  margin-top: 20px;
 }
